@@ -25,7 +25,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AppProvider>
-        <BrowserRouter>
+        <BrowserRouter  basename="/NATRUE">
           <div className="app-shell">
             <Routes>
               <Route path="/onboarding" element={<OnboardingGate />} />
